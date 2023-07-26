@@ -2,23 +2,42 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Custom styles */
 body {
   @apply bg-white text-gray-800;
 }
 
-.header-style {
-  @apply text-center text-2xl font-bold py-4;
+.container {
+  @apply mx-auto max-w-screen-lg px-4;
 }
 
-.footer-style {
-  @apply text-center text-sm py-2;
+.header {
+  @apply py-6;
 }
 
-.nav-bar-style {
-  @apply flex justify-around items-center py-2;
+.main {
+  @apply py-8;
 }
 
-.main-content-style {
-  @apply mx-auto container;
+.footer {
+  @apply py-6;
+}
+
+.grid {
+  @apply grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.card {
+  @apply rounded-lg overflow-hidden shadow-lg;
+}
+
+.image {
+  @apply w-full h-64 object-cover;
+}
+
+.imageGallery {
+  @apply grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.portfolio {
+  @apply py-8;
 }

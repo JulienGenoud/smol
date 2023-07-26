@@ -1,23 +1,11 @@
-Shared Dependencies:
+1. HTML and CSS: Both "index.html" and "portfolio.html" will share the same CSS files ("styles.css" and "tailwind.css") for styling and layout purposes. 
 
-1. **HTML Elements**: All HTML files (index.html, portfolio.html, about.html, contact.html) will share common HTML elements such as header, footer, and navigation bar. The id names for these elements could be 'header', 'footer', and 'nav-bar'.
+2. Tailwind CSS: This is a utility-first CSS framework that is used in both HTML files for styling. It is included in the "tailwind.css" file.
 
-2. **CSS Styles**: The styles.css and tailwind.css files will be shared across all HTML files for consistent styling. The class names could be 'header-style', 'footer-style', 'nav-bar-style', 'main-content-style', etc.
+3. Image Files: The image files ("images/sample1.jpg", "images/sample2.jpg", "images/sample3.jpg", "images/sample4.jpg", "images/sample5.jpg") are shared between the "index.html" and "portfolio.html" files. They are used to display the photographer's work on the portfolio page.
 
-3. **Images**: The images in the 'images/' directory will be shared across all HTML files. The images for the portfolio, about, and contact pages will be stored in their respective directories ('images/portfolio/', 'images/about/', 'images/contact/').
+4. DOM Elements: The id names of DOM elements that are shared between the HTML files could include "header", "footer", "main", "portfolio", and "imageGallery". These ids are used to target specific sections of the website for styling and interactivity.
 
-4. **Tailwind CSS**: Tailwind CSS classes will be used across all HTML files for styling. The class names could be 'text-center', 'text-white', 'bg-white', 'container', 'mx-auto', etc.
+5. CSS Classes: Shared CSS classes between the HTML files could include "container", "grid", "card", and "image". These classes are used to apply consistent styling across different elements and sections of the website.
 
-5. **Link Tags**: The link tags for the CSS files (styles.css and tailwind.css) will be shared across all HTML files.
-
-6. **Meta Tags**: The meta tags for viewport and character encoding will be shared across all HTML files.
-
-7. **Title Tag**: The title tag will be shared across all HTML files, with a unique title for each page.
-
-8. **Favicon**: The favicon link will be shared across all HTML files.
-
-9. **Font**: If a specific font is used, it will be shared across all HTML files.
-
-10. **Color Scheme**: The color scheme (white, clean, simple) will be shared across all HTML files and CSS files.
-
-Please note that the actual names of the shared dependencies will depend on the specific implementation and can be changed as per the developer's preference.
+6. Function Names: If any JavaScript is used, shared function names could include "toggleMenu", "loadImages", "filterImages", etc. These functions would be used to add interactivity to the website, such as opening and closing a mobile navigation menu, loading the images on the portfolio page, and filtering images based on categories.
