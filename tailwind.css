@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-white text-gray-800;
+}
+
+.container {
+  @apply mx-auto max-w-screen-lg px-4;
+}
+
+.header {
+  @apply py-6;
+}
+
+.main {
+  @apply py-8;
+}
+
+.footer {
+  @apply py-6;
+}
+
+.grid {
+  @apply grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.card {
+  @apply rounded-lg overflow-hidden shadow-lg;
+}
+
+.image {
+  @apply w-full h-64 object-cover;
+}
+
+.imageGallery {
+  @apply grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.portfolio {
+  @apply py-8;
+}
