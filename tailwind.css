@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+body {
+  @apply bg-white text-gray-800;
+}
+
+.header-style {
+  @apply text-center text-2xl font-bold py-4;
+}
+
+.footer-style {
+  @apply text-center text-sm py-2;
+}
+
+.nav-bar-style {
+  @apply flex justify-around items-center py-2;
+}
+
+.main-content-style {
+  @apply mx-auto container;
+}
